@@ -29,7 +29,7 @@ void LoginDlg::changeEvent(QEvent *e)
         break;
     }
 }
-
+//登陆按钮
 void LoginDlg::on_pushButton_clicked()
 {
     QSqlQuery query;
@@ -138,7 +138,7 @@ void LoginDlg::on_pushButton_clicked()
     }
     }
 }
-
+//退出按钮
 void LoginDlg::on_pushButton_2_clicked()
 {
     this->close();

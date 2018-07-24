@@ -25,14 +25,13 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
-    OpenDatabase();
-    LoginDlg login; //登陆界面
-    if(login.exec()==QDialog::Accepted)
-    {
+//    OpenDatabase();
+//    LoginDlg login; //登陆界面
+//    if(login.exec()==QDialog::Accepted)
+//    {
       w.show();
       //打开数据库
-
       return a.exec();
-    }
-    else return 0;
+//    }
+//    else return 0;
 }
